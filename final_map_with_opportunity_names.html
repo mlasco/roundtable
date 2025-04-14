@@ -1,0 +1,2642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00e7d0b54b2757b2bb0c98dbb8346219 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00e7d0b54b2757b2bb0c98dbb8346219" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00e7d0b54b2757b2bb0c98dbb8346219 = L.map(
+                "map_00e7d0b54b2757b2bb0c98dbb8346219",
+                {
+                    center: [45.0, -20.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e7c68022b9133a17dcc5951b7416e5dd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+            var marker_cluster_51102ae28e283260cb3debf45caf2a57 = L.markerClusterGroup(
+                {}
+            );
+            map_00e7d0b54b2757b2bb0c98dbb8346219.addLayer(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var marker_250f4c7bf398f7caa24b561bd01e4028 = L.marker(
+                [40.712775, -74.005973],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e98e76d85eb60774c9bf5f52f6ace255 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_250f4c7bf398f7caa24b561bd01e4028.setIcon(icon_e98e76d85eb60774c9bf5f52f6ace255);
+        
+    
+        var popup_6265125ead72879b57cdef15a2b732b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66331a363d02cdef81bf6058299588e2 = $(`<div id="html_66331a363d02cdef81bf6058299588e2" style="width: 100.0%; height: 100.0%;">New York, New York, United States: 419 contacts (25mi radius)</div>`)[0];
+            popup_6265125ead72879b57cdef15a2b732b2.setContent(html_66331a363d02cdef81bf6058299588e2);
+        
+
+        marker_250f4c7bf398f7caa24b561bd01e4028.bindPopup(popup_6265125ead72879b57cdef15a2b732b2)
+        ;
+
+        
+    
+    
+            var marker_34706f83071b5b78a3e30172540e9297 = L.marker(
+                [41.748348, -87.973794],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_cf6a0318bcd0d02b9e92c8b523a87926 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34706f83071b5b78a3e30172540e9297.setIcon(icon_cf6a0318bcd0d02b9e92c8b523a87926);
+        
+    
+        var popup_086de10e55073aeac4c428eb28c888d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7148a0b431db9655ccc2542cd3fa5e9b = $(`<div id="html_7148a0b431db9655ccc2542cd3fa5e9b" style="width: 100.0%; height: 100.0%;">Darien, Illinois, United States: 451 contacts (25mi radius)</div>`)[0];
+            popup_086de10e55073aeac4c428eb28c888d3.setContent(html_7148a0b431db9655ccc2542cd3fa5e9b);
+        
+
+        marker_34706f83071b5b78a3e30172540e9297.bindPopup(popup_086de10e55073aeac4c428eb28c888d3)
+        ;
+
+        
+    
+    
+            var marker_00af31c288297100a1220169c698b6fb = L.marker(
+                [37.804351, -122.271164],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e245473874b5619996ab70f7adfa9f38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00af31c288297100a1220169c698b6fb.setIcon(icon_e245473874b5619996ab70f7adfa9f38);
+        
+    
+        var popup_2260d6b18fe82f7598b4f536c76f103a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6524e45fbda055054a95bc060fd46fbe = $(`<div id="html_6524e45fbda055054a95bc060fd46fbe" style="width: 100.0%; height: 100.0%;">Oakland, California, United States: 394 contacts (25mi radius)</div>`)[0];
+            popup_2260d6b18fe82f7598b4f536c76f103a.setContent(html_6524e45fbda055054a95bc060fd46fbe);
+        
+
+        marker_00af31c288297100a1220169c698b6fb.bindPopup(popup_2260d6b18fe82f7598b4f536c76f103a)
+        ;
+
+        
+    
+    
+            var marker_fc57199614893100257c938fc4e29bf7 = L.marker(
+                [33.750127, -84.388521],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_8e4508942c8cddf4135e7699f5e3af26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc57199614893100257c938fc4e29bf7.setIcon(icon_8e4508942c8cddf4135e7699f5e3af26);
+        
+    
+        var popup_57809b6462fec990a4ffadf18d131dfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e53eb4a5377491be407228084da8ce86 = $(`<div id="html_e53eb4a5377491be407228084da8ce86" style="width: 100.0%; height: 100.0%;">Atlanta, Georgia, United States: 261 contacts (25mi radius)</div>`)[0];
+            popup_57809b6462fec990a4ffadf18d131dfc.setContent(html_e53eb4a5377491be407228084da8ce86);
+        
+
+        marker_fc57199614893100257c938fc4e29bf7.bindPopup(popup_57809b6462fec990a4ffadf18d131dfc)
+        ;
+
+        
+    
+    
+            var marker_c6b91ec8f9b027c549fb15ff9ba8cafa = L.marker(
+                [43.041034, -87.909678],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_01c9a2d81371802ace52c4526deaa74f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6b91ec8f9b027c549fb15ff9ba8cafa.setIcon(icon_01c9a2d81371802ace52c4526deaa74f);
+        
+    
+        var popup_11cc52956e006d09e0cfe2b952e68c92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c405c699fb605d32794e84147bf7da8 = $(`<div id="html_9c405c699fb605d32794e84147bf7da8" style="width: 100.0%; height: 100.0%;">Milwaukee, Wisconsin, United States: 217 contacts (25mi radius)</div>`)[0];
+            popup_11cc52956e006d09e0cfe2b952e68c92.setContent(html_9c405c699fb605d32794e84147bf7da8);
+        
+
+        marker_c6b91ec8f9b027c549fb15ff9ba8cafa.bindPopup(popup_11cc52956e006d09e0cfe2b952e68c92)
+        ;
+
+        
+    
+    
+            var marker_b3cc676f696157bbf58ec9ad01f30267 = L.marker(
+                [52.3676, 4.9041],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_8dd35dc94ef5564f72c65bf8b466218c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3cc676f696157bbf58ec9ad01f30267.setIcon(icon_8dd35dc94ef5564f72c65bf8b466218c);
+        
+    
+        var popup_ed72a90d5c71c231f3e28067edaeb943 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6806ea077fdbdc87d462e623bd54215e = $(`<div id="html_6806ea077fdbdc87d462e623bd54215e" style="width: 100.0%; height: 100.0%;">Amsterdam, Noord-Holland, Netherlands: 137 contacts (25mi radius)</div>`)[0];
+            popup_ed72a90d5c71c231f3e28067edaeb943.setContent(html_6806ea077fdbdc87d462e623bd54215e);
+        
+
+        marker_b3cc676f696157bbf58ec9ad01f30267.bindPopup(popup_ed72a90d5c71c231f3e28067edaeb943)
+        ;
+
+        
+    
+    
+            var marker_e8f27130b1813283fb8b58804b4c83bf = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_444eb0d58c3cdf05d73297eed2a5d615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8f27130b1813283fb8b58804b4c83bf.setIcon(icon_444eb0d58c3cdf05d73297eed2a5d615);
+        
+    
+        var popup_eb2d1b43f9e2c6057c8229ebf3aa7350 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34224bbd8ad7b71492197785ed51e88a = $(`<div id="html_34224bbd8ad7b71492197785ed51e88a" style="width: 100.0%; height: 100.0%;">Paris, Île-de-France, France: 68 contacts (25mi radius)</div>`)[0];
+            popup_eb2d1b43f9e2c6057c8229ebf3aa7350.setContent(html_34224bbd8ad7b71492197785ed51e88a);
+        
+
+        marker_e8f27130b1813283fb8b58804b4c83bf.bindPopup(popup_eb2d1b43f9e2c6057c8229ebf3aa7350)
+        ;
+
+        
+    
+    
+            var marker_74d001ab89b36e11fe3c9bafc95ac256 = L.marker(
+                [51.2, 11.9667],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_f078de3136a538356b70031e5af691f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74d001ab89b36e11fe3c9bafc95ac256.setIcon(icon_f078de3136a538356b70031e5af691f4);
+        
+    
+        var popup_9bd8be6387921b15097a42f90f85565e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c66e53eaf0e2cb6cb9cf5b575fca3551 = $(`<div id="html_c66e53eaf0e2cb6cb9cf5b575fca3551" style="width: 100.0%; height: 100.0%;">Weißenfels, Thüringen, Germany: 47 contacts (25mi radius)</div>`)[0];
+            popup_9bd8be6387921b15097a42f90f85565e.setContent(html_c66e53eaf0e2cb6cb9cf5b575fca3551);
+        
+
+        marker_74d001ab89b36e11fe3c9bafc95ac256.bindPopup(popup_9bd8be6387921b15097a42f90f85565e)
+        ;
+
+        
+    
+    
+            var marker_c4972421591c49656fd4fe910024e112 = L.marker(
+                [49.1124, 9.7398],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_33fbc4d9ebca6cca8c96070afcf8f7aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4972421591c49656fd4fe910024e112.setIcon(icon_33fbc4d9ebca6cca8c96070afcf8f7aa);
+        
+    
+        var popup_36b6847c9da49da3eb41e109619daf54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_664cdb96d9a52c470222a7df38e555fd = $(`<div id="html_664cdb96d9a52c470222a7df38e555fd" style="width: 100.0%; height: 100.0%;">Schwäbisch Hall, Baden-Württemberg, Germany: 60 contacts (25mi radius)</div>`)[0];
+            popup_36b6847c9da49da3eb41e109619daf54.setContent(html_664cdb96d9a52c470222a7df38e555fd);
+        
+
+        marker_c4972421591c49656fd4fe910024e112.bindPopup(popup_36b6847c9da49da3eb41e109619daf54)
+        ;
+
+        
+    
+    
+            var marker_244daf6bdd5cf3d9591be32e6f0ff34c = L.marker(
+                [47.3769, 8.5417],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_362090eaa582c2ff1f2af8934c402503 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_244daf6bdd5cf3d9591be32e6f0ff34c.setIcon(icon_362090eaa582c2ff1f2af8934c402503);
+        
+    
+        var popup_bcf6af8afa58c9c86a554a3e66c11e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00680f9789cfe2cbbb263f44414264f0 = $(`<div id="html_00680f9789cfe2cbbb263f44414264f0" style="width: 100.0%; height: 100.0%;">Zürich, Zürich, Switzerland: 65 contacts (25mi radius)</div>`)[0];
+            popup_bcf6af8afa58c9c86a554a3e66c11e25.setContent(html_00680f9789cfe2cbbb263f44414264f0);
+        
+
+        marker_244daf6bdd5cf3d9591be32e6f0ff34c.bindPopup(popup_bcf6af8afa58c9c86a554a3e66c11e25)
+        ;
+
+        
+    
+    
+            var marker_0be2fc92450ea07dccde4188e008480f = L.marker(
+                [44.2622712, -88.40710469999999],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_2831ebebfe41e6d94e3103ca28315f67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0be2fc92450ea07dccde4188e008480f.setIcon(icon_2831ebebfe41e6d94e3103ca28315f67);
+        
+    
+        var popup_09f371af2ef21a318dc9b2e6744212c2 = L.popup({"maxWidth": 300});
+
+        
+            var html_a255704b17e6fdd82f4b2a331f140631 = $(`<div id="html_a255704b17e6fdd82f4b2a331f140631" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Ariens - New Business</div>`)[0];
+            popup_09f371af2ef21a318dc9b2e6744212c2.setContent(html_a255704b17e6fdd82f4b2a331f140631);
+        
+
+        marker_0be2fc92450ea07dccde4188e008480f.bindPopup(popup_09f371af2ef21a318dc9b2e6744212c2)
+        ;
+
+        
+    
+    
+            var marker_53c0c4ef4ea7f3c4ba909bfa17117b02 = L.marker(
+                [50.1109221, 8.6821267],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_55a0141229da811270a28eba4dd70d3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53c0c4ef4ea7f3c4ba909bfa17117b02.setIcon(icon_55a0141229da811270a28eba4dd70d3a);
+        
+    
+        var popup_9eb0e3c0568606b2843d76021c872fca = L.popup({"maxWidth": 300});
+
+        
+            var html_02b6eb153531230accf9fe1dceb7a76a = $(`<div id="html_02b6eb153531230accf9fe1dceb7a76a" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Stanley Black & Decker, Inc. - New Business SBD Tools Europe</div>`)[0];
+            popup_9eb0e3c0568606b2843d76021c872fca.setContent(html_02b6eb153531230accf9fe1dceb7a76a);
+        
+
+        marker_53c0c4ef4ea7f3c4ba909bfa17117b02.bindPopup(popup_9eb0e3c0568606b2843d76021c872fca)
+        ;
+
+        
+    
+    
+            var marker_38523824e91021940a7ef45cd07eb638 = L.marker(
+                [35.965266, -83.923304],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_0deeb4f045dbe4004cad341ea0e23fd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38523824e91021940a7ef45cd07eb638.setIcon(icon_0deeb4f045dbe4004cad341ea0e23fd3);
+        
+    
+        var popup_eed6c839d616d07734899c67314c194f = L.popup({"maxWidth": 300});
+
+        
+            var html_491eba92820685a647c114ccd081fe4e = $(`<div id="html_491eba92820685a647c114ccd081fe4e" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - PetSafe - Radio Systems Corporation - Expansion</div>`)[0];
+            popup_eed6c839d616d07734899c67314c194f.setContent(html_491eba92820685a647c114ccd081fe4e);
+        
+
+        marker_38523824e91021940a7ef45cd07eb638.bindPopup(popup_eed6c839d616d07734899c67314c194f)
+        ;
+
+        
+    
+    
+            var marker_e5ec6f612fcbf6547dcbc0daecca1134 = L.marker(
+                [59.3327036, 18.0656255],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_3ca661a915c41531891987a8dbbac004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5ec6f612fcbf6547dcbc0daecca1134.setIcon(icon_3ca661a915c41531891987a8dbbac004);
+        
+    
+        var popup_98fed999e03a63ccf7faef2eef187229 = L.popup({"maxWidth": 300});
+
+        
+            var html_1460ae4e41ae33c0e0485f935af59ff7 = $(`<div id="html_1460ae4e41ae33c0e0485f935af59ff7" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Dometic Group - Renewal</div>`)[0];
+            popup_98fed999e03a63ccf7faef2eef187229.setContent(html_1460ae4e41ae33c0e0485f935af59ff7);
+        
+
+        marker_e5ec6f612fcbf6547dcbc0daecca1134.bindPopup(popup_98fed999e03a63ccf7faef2eef187229)
+        ;
+
+        
+    
+    
+            var marker_28b3077a6393defd03cad29eece84066 = L.marker(
+                [52.09192549999999, 5.1229572],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_381ad921a1edf758d9801eed02fe77e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_28b3077a6393defd03cad29eece84066.setIcon(icon_381ad921a1edf758d9801eed02fe77e5);
+        
+    
+        var popup_7ee5e49c46291f78cd8c6b8e9a4df43f = L.popup({"maxWidth": 300});
+
+        
+            var html_61953c0fc7685539484a91aa53511b98 = $(`<div id="html_61953c0fc7685539484a91aa53511b98" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Remeha (BDR Thermea) - New Business</div>`)[0];
+            popup_7ee5e49c46291f78cd8c6b8e9a4df43f.setContent(html_61953c0fc7685539484a91aa53511b98);
+        
+
+        marker_28b3077a6393defd03cad29eece84066.bindPopup(popup_7ee5e49c46291f78cd8c6b8e9a4df43f)
+        ;
+
+        
+    
+    
+            var marker_828aaa99e6b89f856352bcb6ad4c339d = L.marker(
+                [-36.85088270000001, 174.7644881],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_b948abb4cf67f0b4c0afec0251e1d1ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_828aaa99e6b89f856352bcb6ad4c339d.setIcon(icon_b948abb4cf67f0b4c0afec0251e1d1ab);
+        
+    
+        var popup_321de8561dc201efafdd7c9173e38465 = L.popup({"maxWidth": 300});
+
+        
+            var html_eff09f62e59f4c8af6956e53eda31b95 = $(`<div id="html_eff09f62e59f4c8af6956e53eda31b95" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Serato - New Business</div>`)[0];
+            popup_321de8561dc201efafdd7c9173e38465.setContent(html_eff09f62e59f4c8af6956e53eda31b95);
+        
+
+        marker_828aaa99e6b89f856352bcb6ad4c339d.bindPopup(popup_321de8561dc201efafdd7c9173e38465)
+        ;
+
+        
+    
+    
+            var marker_aa14ef84207bb53aacda821d0cbbd2ac = L.marker(
+                [53.567471, -0.080784],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_319bbbbd8acb40d5fa30ff6abf123c1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa14ef84207bb53aacda821d0cbbd2ac.setIcon(icon_319bbbbd8acb40d5fa30ff6abf123c1b);
+        
+    
+        var popup_b74e39144a1ed332df9dc73181d65360 = L.popup({"maxWidth": 300});
+
+        
+            var html_6702cc6b06340a4c4b203512d400bc31 = $(`<div id="html_6702cc6b06340a4c4b203512d400bc31" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Myenergi - New Business</div>`)[0];
+            popup_b74e39144a1ed332df9dc73181d65360.setContent(html_6702cc6b06340a4c4b203512d400bc31);
+        
+
+        marker_aa14ef84207bb53aacda821d0cbbd2ac.bindPopup(popup_b74e39144a1ed332df9dc73181d65360)
+        ;
+
+        
+    
+    
+            var marker_9e084969e3cd36962feff915bb749287 = L.marker(
+                [48.1351253, 11.5819806],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_7bce9e0889a6eb66dd1633ab816b61c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e084969e3cd36962feff915bb749287.setIcon(icon_7bce9e0889a6eb66dd1633ab816b61c1);
+        
+    
+        var popup_ba859b48346e9b064a7f22ecc52aeca2 = L.popup({"maxWidth": 300});
+
+        
+            var html_a6dc3b65717fbfef8fa5663d1481934b = $(`<div id="html_a6dc3b65717fbfef8fa5663d1481934b" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - BORA Vertriebs GmbH & Co KG - New Business</div>`)[0];
+            popup_ba859b48346e9b064a7f22ecc52aeca2.setContent(html_a6dc3b65717fbfef8fa5663d1481934b);
+        
+
+        marker_9e084969e3cd36962feff915bb749287.bindPopup(popup_ba859b48346e9b064a7f22ecc52aeca2)
+        ;
+
+        
+    
+    
+            var marker_94293e1cc9d985176d3236affdf9f600 = L.marker(
+                [52.3675734, 4.9041389],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e987270e30af9270caadab178fb1d574 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94293e1cc9d985176d3236affdf9f600.setIcon(icon_e987270e30af9270caadab178fb1d574);
+        
+    
+        var popup_65f8512580bc19c57035eda0d213381c = L.popup({"maxWidth": 300});
+
+        
+            var html_804814501abfa7f8ed096406a93dd69f = $(`<div id="html_804814501abfa7f8ed096406a93dd69f" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Fairphone - New Business</div>`)[0];
+            popup_65f8512580bc19c57035eda0d213381c.setContent(html_804814501abfa7f8ed096406a93dd69f);
+        
+
+        marker_94293e1cc9d985176d3236affdf9f600.bindPopup(popup_65f8512580bc19c57035eda0d213381c)
+        ;
+
+        
+    
+    
+            var marker_d8cf9f55196d1b51c59ae5d202674fbd = L.marker(
+                [33.4687314, -82.0283188],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_26b7d90d31afa97e7c6a9dab87486ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8cf9f55196d1b51c59ae5d202674fbd.setIcon(icon_26b7d90d31afa97e7c6a9dab87486ae5);
+        
+    
+        var popup_962a9ede72f3f3aa42a85fe9377e7d2e = L.popup({"maxWidth": 300});
+
+        
+            var html_cdf5c709dd51f8d8080eb9367c306821 = $(`<div id="html_cdf5c709dd51f8d8080eb9367c306821" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - recteq - New Business</div>`)[0];
+            popup_962a9ede72f3f3aa42a85fe9377e7d2e.setContent(html_cdf5c709dd51f8d8080eb9367c306821);
+        
+
+        marker_d8cf9f55196d1b51c59ae5d202674fbd.bindPopup(popup_962a9ede72f3f3aa42a85fe9377e7d2e)
+        ;
+
+        
+    
+    
+            var marker_272280368de33a3fc833857bfe72c072 = L.marker(
+                [39.39987199999999, -8.224454],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_7e8c8ec6691f48c10d5270dd2bcb90b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_272280368de33a3fc833857bfe72c072.setIcon(icon_7e8c8ec6691f48c10d5270dd2bcb90b9);
+        
+    
+        var popup_40487a9338dbd64bb81a02622e54e642 = L.popup({"maxWidth": 300});
+
+        
+            var html_fa4109771bd43a0a26c9c63999a2e94b = $(`<div id="html_fa4109771bd43a0a26c9c63999a2e94b" style="width: 100.0%; height: 100.0%;">FY2025 - Q1 - Bloq.it - New Business</div>`)[0];
+            popup_40487a9338dbd64bb81a02622e54e642.setContent(html_fa4109771bd43a0a26c9c63999a2e94b);
+        
+
+        marker_272280368de33a3fc833857bfe72c072.bindPopup(popup_40487a9338dbd64bb81a02622e54e642)
+        ;
+
+        
+    
+    
+            var marker_e6057034995c690ae4da2466adf97a8a = L.marker(
+                [35.9238901, -86.8676866],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_221ab67033df4e81f25826cb13eb76ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6057034995c690ae4da2466adf97a8a.setIcon(icon_221ab67033df4e81f25826cb13eb76ec);
+        
+    
+        var popup_6a50a88b89c0369d9a1b130dfcf0b00f = L.popup({"maxWidth": 300});
+
+        
+            var html_700effe40f4f95726e0fe52d050eccac = $(`<div id="html_700effe40f4f95726e0fe52d050eccac" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Heatmap.com - New Business</div>`)[0];
+            popup_6a50a88b89c0369d9a1b130dfcf0b00f.setContent(html_700effe40f4f95726e0fe52d050eccac);
+        
+
+        marker_e6057034995c690ae4da2466adf97a8a.bindPopup(popup_6a50a88b89c0369d9a1b130dfcf0b00f)
+        ;
+
+        
+    
+    
+            var marker_3107850d99ee685bac8c77904fca80a0 = L.marker(
+                [42.59692769999999, -71.3514509],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_8509c62fd9a8379dfe26d976a37b4f9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3107850d99ee685bac8c77904fca80a0.setIcon(icon_8509c62fd9a8379dfe26d976a37b4f9b);
+        
+    
+        var popup_d3016debea610ccff29c1a4c64eba8ee = L.popup({"maxWidth": 300});
+
+        
+            var html_fe90a6805e8170f2b3ff2158b31a89dc = $(`<div id="html_fe90a6805e8170f2b3ff2158b31a89dc" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Zoll Medical Corporation - New Business</div>`)[0];
+            popup_d3016debea610ccff29c1a4c64eba8ee.setContent(html_fe90a6805e8170f2b3ff2158b31a89dc);
+        
+
+        marker_3107850d99ee685bac8c77904fca80a0.bindPopup(popup_d3016debea610ccff29c1a4c64eba8ee)
+        ;
+
+        
+    
+    
+            var marker_924c0e7dc4c1425b7b475d90914c9e26 = L.marker(
+                [50.811057, -0.5386609],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_00c7cd6ce6dc9d44c88cae9b31f07795 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_924c0e7dc4c1425b7b475d90914c9e26.setIcon(icon_00c7cd6ce6dc9d44c88cae9b31f07795);
+        
+    
+        var popup_79d17aba6eeb1dc46228c73507f9119f = L.popup({"maxWidth": 300});
+
+        
+            var html_3fb458e30903be7ab460ca15d437e1c7 = $(`<div id="html_3fb458e30903be7ab460ca15d437e1c7" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Condair - New Business</div>`)[0];
+            popup_79d17aba6eeb1dc46228c73507f9119f.setContent(html_3fb458e30903be7ab460ca15d437e1c7);
+        
+
+        marker_924c0e7dc4c1425b7b475d90914c9e26.bindPopup(popup_79d17aba6eeb1dc46228c73507f9119f)
+        ;
+
+        
+    
+    
+            var marker_2e9da6db22e6f834fc6e950a2297a9e7 = L.marker(
+                [32.7766642, -96.79698789999999],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_fe6f9c2fd8b6c47f1c4c2530fbfb3bf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e9da6db22e6f834fc6e950a2297a9e7.setIcon(icon_fe6f9c2fd8b6c47f1c4c2530fbfb3bf5);
+        
+    
+        var popup_8301801fcbd8100a849d89f705ea9bde = L.popup({"maxWidth": 300});
+
+        
+            var html_8e6fca4e9b3d175fed3c53167e4b6079 = $(`<div id="html_8e6fca4e9b3d175fed3c53167e4b6079" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Zipline - New Business</div>`)[0];
+            popup_8301801fcbd8100a849d89f705ea9bde.setContent(html_8e6fca4e9b3d175fed3c53167e4b6079);
+        
+
+        marker_2e9da6db22e6f834fc6e950a2297a9e7.bindPopup(popup_8301801fcbd8100a849d89f705ea9bde)
+        ;
+
+        
+    
+    
+            var marker_074dbf8a8c372825a1878a9ba2f9050b = L.marker(
+                [59.3327036, 18.0656255],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_13b87e3da908199dac41adb677d97362 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_074dbf8a8c372825a1878a9ba2f9050b.setIcon(icon_13b87e3da908199dac41adb677d97362);
+        
+    
+        var popup_b05f35244163a36dbf68705484c797f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_77545ace3134483cde035c711eb88cb0 = $(`<div id="html_77545ace3134483cde035c711eb88cb0" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - CTEK - New Business</div>`)[0];
+            popup_b05f35244163a36dbf68705484c797f0.setContent(html_77545ace3134483cde035c711eb88cb0);
+        
+
+        marker_074dbf8a8c372825a1878a9ba2f9050b.bindPopup(popup_b05f35244163a36dbf68705484c797f0)
+        ;
+
+        
+    
+    
+            var marker_4d02a444bb0d296d33a26c1fa7d4f259 = L.marker(
+                [59.3327036, 18.0656255],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_2312fc35d1376c17bade3f0b4639e9e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4d02a444bb0d296d33a26c1fa7d4f259.setIcon(icon_2312fc35d1376c17bade3f0b4639e9e5);
+        
+    
+        var popup_c39b964909161032ea397c7aefe652f4 = L.popup({"maxWidth": 300});
+
+        
+            var html_c6cc68f6b08ee9819a412a00c09875db = $(`<div id="html_c6cc68f6b08ee9819a412a00c09875db" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Go Power Dometic - Expansion</div>`)[0];
+            popup_c39b964909161032ea397c7aefe652f4.setContent(html_c6cc68f6b08ee9819a412a00c09875db);
+        
+
+        marker_4d02a444bb0d296d33a26c1fa7d4f259.bindPopup(popup_c39b964909161032ea397c7aefe652f4)
+        ;
+
+        
+    
+    
+            var marker_f96de6ec26a0677e50f98d8eee6f055d = L.marker(
+                [43.3177794, -88.3789862],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_f47c372a423fff9fc003faea14afa3bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f96de6ec26a0677e50f98d8eee6f055d.setIcon(icon_f47c372a423fff9fc003faea14afa3bb);
+        
+    
+        var popup_d2f38f59e949a22f4f7a0589f1961ed0 = L.popup({"maxWidth": 300});
+
+        
+            var html_a0dbac920e055bdacf76eb925f9c2b28 = $(`<div id="html_a0dbac920e055bdacf76eb925f9c2b28" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Broan-NuTone - Expansion</div>`)[0];
+            popup_d2f38f59e949a22f4f7a0589f1961ed0.setContent(html_a0dbac920e055bdacf76eb925f9c2b28);
+        
+
+        marker_f96de6ec26a0677e50f98d8eee6f055d.bindPopup(popup_d2f38f59e949a22f4f7a0589f1961ed0)
+        ;
+
+        
+    
+    
+            var marker_dbb228347c5e74bb3f018c56dfdccd86 = L.marker(
+                [36.0395247, -114.9817213],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_fbaa938527eb6614b4175c5c8d59399f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dbb228347c5e74bb3f018c56dfdccd86.setIcon(icon_fbaa938527eb6614b4175c5c8d59399f);
+        
+    
+        var popup_344347e0f4032d43757c668d70e46be9 = L.popup({"maxWidth": 300});
+
+        
+            var html_3eb7e914d1bde2e7f57678e887b1d4c6 = $(`<div id="html_3eb7e914d1bde2e7f57678e887b1d4c6" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Frontpoint Security Solutions - Renewal</div>`)[0];
+            popup_344347e0f4032d43757c668d70e46be9.setContent(html_3eb7e914d1bde2e7f57678e887b1d4c6);
+        
+
+        marker_dbb228347c5e74bb3f018c56dfdccd86.bindPopup(popup_344347e0f4032d43757c668d70e46be9)
+        ;
+
+        
+    
+    
+            var marker_bd10898033b146e6ccb13242f7273765 = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_6cf9ca1e19d0e858a1b2a8a2a7258fdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd10898033b146e6ccb13242f7273765.setIcon(icon_6cf9ca1e19d0e858a1b2a8a2a7258fdc);
+        
+    
+        var popup_698ed42f8b7ffac85db9ed55d7994794 = L.popup({"maxWidth": 300});
+
+        
+            var html_886b01080895a935d67f781eb41935a6 = $(`<div id="html_886b01080895a935d67f781eb41935a6" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Hunter Douglas, Inc. - New Business</div>`)[0];
+            popup_698ed42f8b7ffac85db9ed55d7994794.setContent(html_886b01080895a935d67f781eb41935a6);
+        
+
+        marker_bd10898033b146e6ccb13242f7273765.bindPopup(popup_698ed42f8b7ffac85db9ed55d7994794)
+        ;
+
+        
+    
+    
+            var marker_45b67a568641c8e3ca088af1064cbed5 = L.marker(
+                [44.977753, -93.2650108],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_8339240a41b51df5fd18258cd3b33776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_45b67a568641c8e3ca088af1064cbed5.setIcon(icon_8339240a41b51df5fd18258cd3b33776);
+        
+    
+        var popup_5f2eb308bea1f07a7bfeb811b0ef2ac1 = L.popup({"maxWidth": 300});
+
+        
+            var html_608b78eab26533963773f2ef9b1f035f = $(`<div id="html_608b78eab26533963773f2ef9b1f035f" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Polaris - New Business</div>`)[0];
+            popup_5f2eb308bea1f07a7bfeb811b0ef2ac1.setContent(html_608b78eab26533963773f2ef9b1f035f);
+        
+
+        marker_45b67a568641c8e3ca088af1064cbed5.bindPopup(popup_5f2eb308bea1f07a7bfeb811b0ef2ac1)
+        ;
+
+        
+    
+    
+            var marker_b35f8e465b7ddc74923e333393c28ebd = L.marker(
+                [45.0105194, -93.4555093],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_53b211971282f386848cc316f74232d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b35f8e465b7ddc74923e333393c28ebd.setIcon(icon_53b211971282f386848cc316f74232d5);
+        
+    
+        var popup_e074999579a97d4f8b72be8d4adc9b43 = L.popup({"maxWidth": 300});
+
+        
+            var html_8bc139d0245e8b6817d79266c5d4e777 = $(`<div id="html_8bc139d0245e8b6817d79266c5d4e777" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Everidge - New Business</div>`)[0];
+            popup_e074999579a97d4f8b72be8d4adc9b43.setContent(html_8bc139d0245e8b6817d79266c5d4e777);
+        
+
+        marker_b35f8e465b7ddc74923e333393c28ebd.bindPopup(popup_e074999579a97d4f8b72be8d4adc9b43)
+        ;
+
+        
+    
+    
+            var marker_54c39c15262e709992a4514cb364d38b = L.marker(
+                [47.6579711, -117.4235319],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_b6b6104939ebea3caa40a6098216f0d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54c39c15262e709992a4514cb364d38b.setIcon(icon_b6b6104939ebea3caa40a6098216f0d4);
+        
+    
+        var popup_3452961a1bd3a1e61ed8450f927de80d = L.popup({"maxWidth": 300});
+
+        
+            var html_044a78ed2958056ceb5a65302a473f09 = $(`<div id="html_044a78ed2958056ceb5a65302a473f09" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Kensington - New Business</div>`)[0];
+            popup_3452961a1bd3a1e61ed8450f927de80d.setContent(html_044a78ed2958056ceb5a65302a473f09);
+        
+
+        marker_54c39c15262e709992a4514cb364d38b.bindPopup(popup_3452961a1bd3a1e61ed8450f927de80d)
+        ;
+
+        
+    
+    
+            var marker_683e2d8a7199839bd5d81d8bf3a90e75 = L.marker(
+                [34.0549076, -118.242643],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_74e8dbe977910532adf968e7b0610108 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_683e2d8a7199839bd5d81d8bf3a90e75.setIcon(icon_74e8dbe977910532adf968e7b0610108);
+        
+    
+        var popup_b13fc74f495b58c6cd1b479f41bddbd0 = L.popup({"maxWidth": 300});
+
+        
+            var html_c32e39ade61ab366d9b6c6a1a8cb55d8 = $(`<div id="html_c32e39ade61ab366d9b6c6a1a8cb55d8" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Brio Water - New Business</div>`)[0];
+            popup_b13fc74f495b58c6cd1b479f41bddbd0.setContent(html_c32e39ade61ab366d9b6c6a1a8cb55d8);
+        
+
+        marker_683e2d8a7199839bd5d81d8bf3a90e75.bindPopup(popup_b13fc74f495b58c6cd1b479f41bddbd0)
+        ;
+
+        
+    
+    
+            var marker_ef453fa0fbabe0ffae06e9a347b98dae = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_0bff7754aaedba2de642c91d2c5bf081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ef453fa0fbabe0ffae06e9a347b98dae.setIcon(icon_0bff7754aaedba2de642c91d2c5bf081);
+        
+    
+        var popup_6e41d881fd7b8e9eb6142e3ea61c58d0 = L.popup({"maxWidth": 300});
+
+        
+            var html_289524b8d669e21cb68b15ebcbddd3f7 = $(`<div id="html_289524b8d669e21cb68b15ebcbddd3f7" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - McIntosh Group - New Business</div>`)[0];
+            popup_6e41d881fd7b8e9eb6142e3ea61c58d0.setContent(html_289524b8d669e21cb68b15ebcbddd3f7);
+        
+
+        marker_ef453fa0fbabe0ffae06e9a347b98dae.bindPopup(popup_6e41d881fd7b8e9eb6142e3ea61c58d0)
+        ;
+
+        
+    
+    
+            var marker_b8f36b2b05ad121cb33541aa417ed106 = L.marker(
+                [43.7391616, -87.7817541],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_0195f52e5c19049a7641982bc91ca9cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8f36b2b05ad121cb33541aa417ed106.setIcon(icon_0195f52e5c19049a7641982bc91ca9cf);
+        
+    
+        var popup_542ef58778d415d627324aa13d46d378 = L.popup({"maxWidth": 300});
+
+        
+            var html_1b744055ce5f24e7762b7bb0e55fd16c = $(`<div id="html_1b744055ce5f24e7762b7bb0e55fd16c" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Kohler Bathroom Design Services - Expansion</div>`)[0];
+            popup_542ef58778d415d627324aa13d46d378.setContent(html_1b744055ce5f24e7762b7bb0e55fd16c);
+        
+
+        marker_b8f36b2b05ad121cb33541aa417ed106.bindPopup(popup_542ef58778d415d627324aa13d46d378)
+        ;
+
+        
+    
+    
+            var marker_0fb6b95e62b6063ea97a843af7323621 = L.marker(
+                [59.3327036, 18.0656255],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_af3ad74e7ae8a20a5f187a7f90faab22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fb6b95e62b6063ea97a843af7323621.setIcon(icon_af3ad74e7ae8a20a5f187a7f90faab22);
+        
+    
+        var popup_c7909b6a4893c92cb7b82a7c1b863956 = L.popup({"maxWidth": 300});
+
+        
+            var html_0b44ceea47e73f56c4ea5ae8c3e93683 = $(`<div id="html_0b44ceea47e73f56c4ea5ae8c3e93683" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Husqvarna Group - Renewal</div>`)[0];
+            popup_c7909b6a4893c92cb7b82a7c1b863956.setContent(html_0b44ceea47e73f56c4ea5ae8c3e93683);
+        
+
+        marker_0fb6b95e62b6063ea97a843af7323621.bindPopup(popup_c7909b6a4893c92cb7b82a7c1b863956)
+        ;
+
+        
+    
+    
+            var marker_941f6632e493dc4d29bcd1b1c2ed6cae = L.marker(
+                [-25.274398, 133.775136],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_717c6ab096eeefe8532ad7404e1251c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_941f6632e493dc4d29bcd1b1c2ed6cae.setIcon(icon_717c6ab096eeefe8532ad7404e1251c5);
+        
+    
+        var popup_ff964a1483b9853c3c578ca5fac6eaa9 = L.popup({"maxWidth": 300});
+
+        
+            var html_2cfb1f91851f89b29c2c8ab80c4b04f5 = $(`<div id="html_2cfb1f91851f89b29c2c8ab80c4b04f5" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - SquareTrade - New Business</div>`)[0];
+            popup_ff964a1483b9853c3c578ca5fac6eaa9.setContent(html_2cfb1f91851f89b29c2c8ab80c4b04f5);
+        
+
+        marker_941f6632e493dc4d29bcd1b1c2ed6cae.bindPopup(popup_ff964a1483b9853c3c578ca5fac6eaa9)
+        ;
+
+        
+    
+    
+            var marker_4e784cac9995b734890a37a420a6cd1b = L.marker(
+                [42.2333571, -87.9259058],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_14970a203a6ffb3054644dc989dd8215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e784cac9995b734890a37a420a6cd1b.setIcon(icon_14970a203a6ffb3054644dc989dd8215);
+        
+    
+        var popup_93100628a2acffee23deaebec5cf99c6 = L.popup({"maxWidth": 300});
+
+        
+            var html_79366b6c5fed1dba90ec863c1ebc9f4d = $(`<div id="html_79366b6c5fed1dba90ec863c1ebc9f4d" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Brunswick - New Business</div>`)[0];
+            popup_93100628a2acffee23deaebec5cf99c6.setContent(html_79366b6c5fed1dba90ec863c1ebc9f4d);
+        
+
+        marker_4e784cac9995b734890a37a420a6cd1b.bindPopup(popup_93100628a2acffee23deaebec5cf99c6)
+        ;
+
+        
+    
+    
+            var marker_2e9c36672c1bef0071ff27422440eb7e = L.marker(
+                [30.5082551, -97.678896],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_0c9da40d5c7aaa74936387850a80e587 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e9c36672c1bef0071ff27422440eb7e.setIcon(icon_0c9da40d5c7aaa74936387850a80e587);
+        
+    
+        var popup_e611369325c572d2400534e50b3c2e82 = L.popup({"maxWidth": 300});
+
+        
+            var html_e2f7091b81eca4f3d7799f455795288a = $(`<div id="html_e2f7091b81eca4f3d7799f455795288a" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Emerson - New Business Pressure Management</div>`)[0];
+            popup_e611369325c572d2400534e50b3c2e82.setContent(html_e2f7091b81eca4f3d7799f455795288a);
+        
+
+        marker_2e9c36672c1bef0071ff27422440eb7e.bindPopup(popup_e611369325c572d2400534e50b3c2e82)
+        ;
+
+        
+    
+    
+            var marker_be94d65fc63d40324bc53e4434adf0f5 = L.marker(
+                [40.6499023, -74.35023679999999],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e7c75be2cc460479e0980e84613e37c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be94d65fc63d40324bc53e4434adf0f5.setIcon(icon_e7c75be2cc460479e0980e84613e37c3);
+        
+    
+        var popup_b2716a9bc3a2ec44e90b61a86c8d3c62 = L.popup({"maxWidth": 300});
+
+        
+            var html_31b9d52ef66be386f33f014c0d5c9725 = $(`<div id="html_31b9d52ef66be386f33f014c0d5c9725" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Avantor - New Business</div>`)[0];
+            popup_b2716a9bc3a2ec44e90b61a86c8d3c62.setContent(html_31b9d52ef66be386f33f014c0d5c9725);
+        
+
+        marker_be94d65fc63d40324bc53e4434adf0f5.bindPopup(popup_b2716a9bc3a2ec44e90b61a86c8d3c62)
+        ;
+
+        
+    
+    
+            var marker_ce1fc1e1319382794e9ee99173f36ae0 = L.marker(
+                [40.0189728, -105.2747406],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e85eca3a848b6dc3f15d33f6c020e3b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce1fc1e1319382794e9ee99173f36ae0.setIcon(icon_e85eca3a848b6dc3f15d33f6c020e3b5);
+        
+    
+        var popup_181b50191849efffef98e9305c3135a5 = L.popup({"maxWidth": 300});
+
+        
+            var html_45177c75d6a23142c6cc8318a499bee3 = $(`<div id="html_45177c75d6a23142c6cc8318a499bee3" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Medtronic - New Business</div>`)[0];
+            popup_181b50191849efffef98e9305c3135a5.setContent(html_45177c75d6a23142c6cc8318a499bee3);
+        
+
+        marker_ce1fc1e1319382794e9ee99173f36ae0.bindPopup(popup_181b50191849efffef98e9305c3135a5)
+        ;
+
+        
+    
+    
+            var marker_2ad1ca6786c302b1f3323e5916b144cc = L.marker(
+                [-25.274398, 133.775136],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_3d7b8d430782f841f3ee86cadba38c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ad1ca6786c302b1f3323e5916b144cc.setIcon(icon_3d7b8d430782f841f3ee86cadba38c0b);
+        
+    
+        var popup_af031c0c8132e64c453275e8494110a0 = L.popup({"maxWidth": 300});
+
+        
+            var html_65d8f591bb1c06809eb3489d7420bc8f = $(`<div id="html_65d8f591bb1c06809eb3489d7420bc8f" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - SquareTrade - New Business EU</div>`)[0];
+            popup_af031c0c8132e64c453275e8494110a0.setContent(html_65d8f591bb1c06809eb3489d7420bc8f);
+        
+
+        marker_2ad1ca6786c302b1f3323e5916b144cc.bindPopup(popup_af031c0c8132e64c453275e8494110a0)
+        ;
+
+        
+    
+    
+            var marker_6b9b3eae30b3ae18b64201beee906004 = L.marker(
+                [46.8130816, -71.20745959999999],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_ac2066cd0a8524f5f72a5f1c2f0ef2d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b9b3eae30b3ae18b64201beee906004.setIcon(icon_ac2066cd0a8524f5f72a5f1c2f0ef2d3);
+        
+    
+        var popup_f5ebd5e1adf824071d537745783ff61c = L.popup({"maxWidth": 300});
+
+        
+            var html_252661adddf39b924cf2c09eed0809d3 = $(`<div id="html_252661adddf39b924cf2c09eed0809d3" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - BRP - New Business</div>`)[0];
+            popup_f5ebd5e1adf824071d537745783ff61c.setContent(html_252661adddf39b924cf2c09eed0809d3);
+        
+
+        marker_6b9b3eae30b3ae18b64201beee906004.bindPopup(popup_f5ebd5e1adf824071d537745783ff61c)
+        ;
+
+        
+    
+    
+            var marker_51ba5bdbb79ab56efb211b1af94d5b2a = L.marker(
+                [39.074208, 21.824312],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_287bf5d1888c8cab8569cef41d42324d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51ba5bdbb79ab56efb211b1af94d5b2a.setIcon(icon_287bf5d1888c8cab8569cef41d42324d);
+        
+    
+        var popup_c01d94eefc10252cc3d79de8a3588540 = L.popup({"maxWidth": 300});
+
+        
+            var html_70edc47d638a45a4560979af96d8ec17 = $(`<div id="html_70edc47d638a45a4560979af96d8ec17" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Siemens Healthineers - New Business</div>`)[0];
+            popup_c01d94eefc10252cc3d79de8a3588540.setContent(html_70edc47d638a45a4560979af96d8ec17);
+        
+
+        marker_51ba5bdbb79ab56efb211b1af94d5b2a.bindPopup(popup_c01d94eefc10252cc3d79de8a3588540)
+        ;
+
+        
+    
+    
+            var marker_9b0686df4468221e6fd9e9fd6294e284 = L.marker(
+                [55.844295, 12.422112],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_862f120bbec0a65cb635b2aee981850f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b0686df4468221e6fd9e9fd6294e284.setIcon(icon_862f120bbec0a65cb635b2aee981850f);
+        
+    
+        var popup_84ec1fb971d1f65b24b1abf4234b45fb = L.popup({"maxWidth": 300});
+
+        
+            var html_d8fec61cd3ecd907cd7083df32c45dc9 = $(`<div id="html_d8fec61cd3ecd907cd7083df32c45dc9" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Velux - New Business</div>`)[0];
+            popup_84ec1fb971d1f65b24b1abf4234b45fb.setContent(html_d8fec61cd3ecd907cd7083df32c45dc9);
+        
+
+        marker_9b0686df4468221e6fd9e9fd6294e284.bindPopup(popup_84ec1fb971d1f65b24b1abf4234b45fb)
+        ;
+
+        
+    
+    
+            var marker_6fdc561d3fb35f90398d18494400540d = L.marker(
+                [51.165691, 10.451526],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_ceedecd63b2fa0b08fda0efd91e66d2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6fdc561d3fb35f90398d18494400540d.setIcon(icon_ceedecd63b2fa0b08fda0efd91e66d2a);
+        
+    
+        var popup_0bd6b3465e1657e32cf52000294414bf = L.popup({"maxWidth": 300});
+
+        
+            var html_ae4a1cac93eb10324e76520956f99520 = $(`<div id="html_ae4a1cac93eb10324e76520956f99520" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Metabo - New Business</div>`)[0];
+            popup_0bd6b3465e1657e32cf52000294414bf.setContent(html_ae4a1cac93eb10324e76520956f99520);
+        
+
+        marker_6fdc561d3fb35f90398d18494400540d.bindPopup(popup_0bd6b3465e1657e32cf52000294414bf)
+        ;
+
+        
+    
+    
+            var marker_c22f858c52bdb224beb7d6709754d333 = L.marker(
+                [48.7667395, 11.4226498],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_23f4df291abe1aff4dd9b8b254df43ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c22f858c52bdb224beb7d6709754d333.setIcon(icon_23f4df291abe1aff4dd9b8b254df43ad);
+        
+    
+        var popup_0e3a21003f3e6548b400763649c24041 = L.popup({"maxWidth": 300});
+
+        
+            var html_29fd9b496b441a18151cc2408c3bc6dd = $(`<div id="html_29fd9b496b441a18151cc2408c3bc6dd" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - MediaMarkt - New Business</div>`)[0];
+            popup_0e3a21003f3e6548b400763649c24041.setContent(html_29fd9b496b441a18151cc2408c3bc6dd);
+        
+
+        marker_c22f858c52bdb224beb7d6709754d333.bindPopup(popup_0e3a21003f3e6548b400763649c24041)
+        ;
+
+        
+    
+    
+            var marker_031cf7f4ece8d4df6ac13b4469f8b054 = L.marker(
+                [51.5072178, -0.1275862],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_4dad315368ba7175a1f818f31cb60b30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_031cf7f4ece8d4df6ac13b4469f8b054.setIcon(icon_4dad315368ba7175a1f818f31cb60b30);
+        
+    
+        var popup_de9c19431d90cb3dee1f57c9ea92afaa = L.popup({"maxWidth": 300});
+
+        
+            var html_c939202307d4d16a7d58c5e92906aae4 = $(`<div id="html_c939202307d4d16a7d58c5e92906aae4" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Raymarine - New Business</div>`)[0];
+            popup_de9c19431d90cb3dee1f57c9ea92afaa.setContent(html_c939202307d4d16a7d58c5e92906aae4);
+        
+
+        marker_031cf7f4ece8d4df6ac13b4469f8b054.bindPopup(popup_de9c19431d90cb3dee1f57c9ea92afaa)
+        ;
+
+        
+    
+    
+            var marker_0729b1dd4478dcc8943ef28fff8b90b4 = L.marker(
+                [42.3555076, -71.0565364],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_777ca8731a4ad11e754b3127cec9cd88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0729b1dd4478dcc8943ef28fff8b90b4.setIcon(icon_777ca8731a4ad11e754b3127cec9cd88);
+        
+    
+        var popup_c40a89d14943bf079f1792e1a079543b = L.popup({"maxWidth": 300});
+
+        
+            var html_8ab096bd5d42eb4f8f03fef3c82ff5b9 = $(`<div id="html_8ab096bd5d42eb4f8f03fef3c82ff5b9" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - SharkNinja - New Business</div>`)[0];
+            popup_c40a89d14943bf079f1792e1a079543b.setContent(html_8ab096bd5d42eb4f8f03fef3c82ff5b9);
+        
+
+        marker_0729b1dd4478dcc8943ef28fff8b90b4.bindPopup(popup_c40a89d14943bf079f1792e1a079543b)
+        ;
+
+        
+    
+    
+            var marker_4a65500da1c49deaee2dfed254947ac6 = L.marker(
+                [50.1109221, 8.6821267],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_32a9f7fb37588915446d4792d537f464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a65500da1c49deaee2dfed254947ac6.setIcon(icon_32a9f7fb37588915446d4792d537f464);
+        
+    
+        var popup_fd41c5b913b10b3c38092d3b2e0f3dd5 = L.popup({"maxWidth": 300});
+
+        
+            var html_a7370edd040401acda24efffc46821c4 = $(`<div id="html_a7370edd040401acda24efffc46821c4" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Dentsply Sirona - New Business</div>`)[0];
+            popup_fd41c5b913b10b3c38092d3b2e0f3dd5.setContent(html_a7370edd040401acda24efffc46821c4);
+        
+
+        marker_4a65500da1c49deaee2dfed254947ac6.bindPopup(popup_fd41c5b913b10b3c38092d3b2e0f3dd5)
+        ;
+
+        
+    
+    
+            var marker_a97bc4f56ec7ef7c9959fcdf78163934 = L.marker(
+                [47.1410843, 9.5210732],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_986b6e50fd4908c24cf5160f7ae59017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a97bc4f56ec7ef7c9959fcdf78163934.setIcon(icon_986b6e50fd4908c24cf5160f7ae59017);
+        
+    
+        var popup_b71aa0bf406f3793a8311607ded0b617 = L.popup({"maxWidth": 300});
+
+        
+            var html_cae8bf389739efb637f1492118b12384 = $(`<div id="html_cae8bf389739efb637f1492118b12384" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Hoval - New Business</div>`)[0];
+            popup_b71aa0bf406f3793a8311607ded0b617.setContent(html_cae8bf389739efb637f1492118b12384);
+        
+
+        marker_a97bc4f56ec7ef7c9959fcdf78163934.bindPopup(popup_b71aa0bf406f3793a8311607ded0b617)
+        ;
+
+        
+    
+    
+            var marker_b9ab35a3e5d9cb55d690cf0a10bf349a = L.marker(
+                [44.977753, -93.2650108],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_cfe4b145e4a4a3906167281781f3c4cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b9ab35a3e5d9cb55d690cf0a10bf349a.setIcon(icon_cfe4b145e4a4a3906167281781f3c4cb);
+        
+    
+        var popup_955e2926ef7556f9e62af8c7dc8b634c = L.popup({"maxWidth": 300});
+
+        
+            var html_0a7d34e6ab0de375468a033f717787e6 = $(`<div id="html_0a7d34e6ab0de375468a033f717787e6" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Emerson - New Business MyAssets</div>`)[0];
+            popup_955e2926ef7556f9e62af8c7dc8b634c.setContent(html_0a7d34e6ab0de375468a033f717787e6);
+        
+
+        marker_b9ab35a3e5d9cb55d690cf0a10bf349a.bindPopup(popup_955e2926ef7556f9e62af8c7dc8b634c)
+        ;
+
+        
+    
+    
+            var marker_fcfc58ca246afd9b6dc41629273e2b13 = L.marker(
+                [48.4333384, 9.2553549],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_4397bc90e87febf8ed3ec37718d83a70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fcfc58ca246afd9b6dc41629273e2b13.setIcon(icon_4397bc90e87febf8ed3ec37718d83a70);
+        
+    
+        var popup_5fa420947eb06d027b6b1a5c25b9087f = L.popup({"maxWidth": 300});
+
+        
+            var html_77357869d9c49d947674ea753039a744 = $(`<div id="html_77357869d9c49d947674ea753039a744" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Beko - New Business</div>`)[0];
+            popup_5fa420947eb06d027b6b1a5c25b9087f.setContent(html_77357869d9c49d947674ea753039a744);
+        
+
+        marker_fcfc58ca246afd9b6dc41629273e2b13.bindPopup(popup_5fa420947eb06d027b6b1a5c25b9087f)
+        ;
+
+        
+    
+    
+            var marker_6ec2f758c7825e0adda7020d104ec536 = L.marker(
+                [49.8954221, -97.1385145],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_dec17d7eb6b02e3663a946dd369056b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ec2f758c7825e0adda7020d104ec536.setIcon(icon_dec17d7eb6b02e3663a946dd369056b7);
+        
+    
+        var popup_b3dae438426293892f393f185a666863 = L.popup({"maxWidth": 300});
+
+        
+            var html_cc3771f465c821c754e73e4f9fd08961 = $(`<div id="html_cc3771f465c821c754e73e4f9fd08961" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Scootaround - New Business</div>`)[0];
+            popup_b3dae438426293892f393f185a666863.setContent(html_cc3771f465c821c754e73e4f9fd08961);
+        
+
+        marker_6ec2f758c7825e0adda7020d104ec536.bindPopup(popup_b3dae438426293892f393f185a666863)
+        ;
+
+        
+    
+    
+            var marker_1ff74dddb388379b28bcd86fd59334be = L.marker(
+                [39.744655, -75.5483909],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_48b50786ecf52f5d9e8b994319565ec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1ff74dddb388379b28bcd86fd59334be.setIcon(icon_48b50786ecf52f5d9e8b994319565ec7);
+        
+    
+        var popup_f477572eb0e2b9886bb22c9fc95cbcb1 = L.popup({"maxWidth": 300});
+
+        
+            var html_786b0281d7a4b2ed677323a29f5269ac = $(`<div id="html_786b0281d7a4b2ed677323a29f5269ac" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Capsa Healthcare - New Business</div>`)[0];
+            popup_f477572eb0e2b9886bb22c9fc95cbcb1.setContent(html_786b0281d7a4b2ed677323a29f5269ac);
+        
+
+        marker_1ff74dddb388379b28bcd86fd59334be.bindPopup(popup_f477572eb0e2b9886bb22c9fc95cbcb1)
+        ;
+
+        
+    
+    
+            var marker_83fe67032ad543aa162b0a45871d9f1a = L.marker(
+                [35.7795897, -78.6381787],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_d4acce2edb506a678ba86b604dd0ffbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83fe67032ad543aa162b0a45871d9f1a.setIcon(icon_d4acce2edb506a678ba86b604dd0ffbc);
+        
+    
+        var popup_71ea0306cbc0803609638852103f8831 = L.popup({"maxWidth": 300});
+
+        
+            var html_e6e710fb5e3b30e3470cfe1dc6229861 = $(`<div id="html_e6e710fb5e3b30e3470cfe1dc6229861" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Kodak Alaris - New Business</div>`)[0];
+            popup_71ea0306cbc0803609638852103f8831.setContent(html_e6e710fb5e3b30e3470cfe1dc6229861);
+        
+
+        marker_83fe67032ad543aa162b0a45871d9f1a.bindPopup(popup_71ea0306cbc0803609638852103f8831)
+        ;
+
+        
+    
+    
+            var marker_1d6f586478af0a572c1c684f21b8eccf = L.marker(
+                [42.10808340000001, -87.735895],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_8dba032ccf7cd791d408957befa02523 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d6f586478af0a572c1c684f21b8eccf.setIcon(icon_8dba032ccf7cd791d408957befa02523);
+        
+    
+        var popup_4906d2964d9ae0d81aeb4957fd937d18 = L.popup({"maxWidth": 300});
+
+        
+            var html_82e0a1ae705f952dd9c4e579ffea36be = $(`<div id="html_82e0a1ae705f952dd9c4e579ffea36be" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Aprilaire - New Business</div>`)[0];
+            popup_4906d2964d9ae0d81aeb4957fd937d18.setContent(html_82e0a1ae705f952dd9c4e579ffea36be);
+        
+
+        marker_1d6f586478af0a572c1c684f21b8eccf.bindPopup(popup_4906d2964d9ae0d81aeb4957fd937d18)
+        ;
+
+        
+    
+    
+            var marker_215ea71650847e93c3cb35a665b71130 = L.marker(
+                [50.93360999999999, 0.243262],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_d5e41f5638ca58eb378efe91f18df31a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_215ea71650847e93c3cb35a665b71130.setIcon(icon_d5e41f5638ca58eb378efe91f18df31a);
+        
+    
+        var popup_c90aad9e248f952603bb87a3089442f5 = L.popup({"maxWidth": 300});
+
+        
+            var html_f934cda9d6124e5d8c4248f7ff309bdb = $(`<div id="html_f934cda9d6124e5d8c4248f7ff309bdb" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Merrychef Ltd - New Business</div>`)[0];
+            popup_c90aad9e248f952603bb87a3089442f5.setContent(html_f934cda9d6124e5d8c4248f7ff309bdb);
+        
+
+        marker_215ea71650847e93c3cb35a665b71130.bindPopup(popup_c90aad9e248f952603bb87a3089442f5)
+        ;
+
+        
+    
+    
+            var marker_a02a97efa47b78f21457346d5b077d67 = L.marker(
+                [43.653226, -79.3831843],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_58253216b1ef122b33cfc73cd395a883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a02a97efa47b78f21457346d5b077d67.setIcon(icon_58253216b1ef122b33cfc73cd395a883);
+        
+    
+        var popup_9e3b5d0104ab7c998fdaa9aa7fcd0811 = L.popup({"maxWidth": 300});
+
+        
+            var html_c26de15fd68dd03c0688b89a81156aea = $(`<div id="html_c26de15fd68dd03c0688b89a81156aea" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Paradigm Electronics - New Business</div>`)[0];
+            popup_9e3b5d0104ab7c998fdaa9aa7fcd0811.setContent(html_c26de15fd68dd03c0688b89a81156aea);
+        
+
+        marker_a02a97efa47b78f21457346d5b077d67.bindPopup(popup_9e3b5d0104ab7c998fdaa9aa7fcd0811)
+        ;
+
+        
+    
+    
+            var marker_62d7f91965ae4d2a1be3dd58520f2e85 = L.marker(
+                [41.1703592, -76.8769076],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_9c479edafd672286c2dde5b93661b7af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62d7f91965ae4d2a1be3dd58520f2e85.setIcon(icon_9c479edafd672286c2dde5b93661b7af);
+        
+    
+        var popup_709381e4af579dd24305a58726353e6a = L.popup({"maxWidth": 300});
+
+        
+            var html_ce467d00f9618d5147bc83e21700c115 = $(`<div id="html_ce467d00f9618d5147bc83e21700c115" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Springs Window Fashions - New Business</div>`)[0];
+            popup_709381e4af579dd24305a58726353e6a.setContent(html_ce467d00f9618d5147bc83e21700c115);
+        
+
+        marker_62d7f91965ae4d2a1be3dd58520f2e85.bindPopup(popup_709381e4af579dd24305a58726353e6a)
+        ;
+
+        
+    
+    
+            var marker_98502c68cd58783e06750fabbfe6cf6d = L.marker(
+                [-25.274398, 133.775136],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_d0ac991ea8c8656ea2bc4ab9265e846f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98502c68cd58783e06750fabbfe6cf6d.setIcon(icon_d0ac991ea8c8656ea2bc4ab9265e846f);
+        
+    
+        var popup_2bd9e3760e582d36ef1cfa9963aeec8f = L.popup({"maxWidth": 300});
+
+        
+            var html_b684a5ee63794150bb677e64378c6465 = $(`<div id="html_b684a5ee63794150bb677e64378c6465" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - SquareTrade - New Business AU</div>`)[0];
+            popup_2bd9e3760e582d36ef1cfa9963aeec8f.setContent(html_b684a5ee63794150bb677e64378c6465);
+        
+
+        marker_98502c68cd58783e06750fabbfe6cf6d.bindPopup(popup_2bd9e3760e582d36ef1cfa9963aeec8f)
+        ;
+
+        
+    
+    
+            var marker_5de20939ed97975201b93d51e18563a0 = L.marker(
+                [41.6661573, -81.339552],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_5afb67cdd82f276b00689d5cfd8f2f99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5de20939ed97975201b93d51e18563a0.setIcon(icon_5afb67cdd82f276b00689d5cfd8f2f99);
+        
+    
+        var popup_23a6deb150f44e6591968ee615ffd653 = L.popup({"maxWidth": 300});
+
+        
+            var html_6f46bec9e2c4233ecdd216ba1cbed18b = $(`<div id="html_6f46bec9e2c4233ecdd216ba1cbed18b" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Steris Corporation - New Business</div>`)[0];
+            popup_23a6deb150f44e6591968ee615ffd653.setContent(html_6f46bec9e2c4233ecdd216ba1cbed18b);
+        
+
+        marker_5de20939ed97975201b93d51e18563a0.bindPopup(popup_23a6deb150f44e6591968ee615ffd653)
+        ;
+
+        
+    
+    
+            var marker_813f3d2ec365ff646dbe36292830e745 = L.marker(
+                [60.12816100000001, 18.643501],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_778a365fadfedbe50ebc5f8ec3a9a00f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_813f3d2ec365ff646dbe36292830e745.setIcon(icon_778a365fadfedbe50ebc5f8ec3a9a00f);
+        
+    
+        var popup_7e479701e61ff8146bf5b42efeca7a46 = L.popup({"maxWidth": 300});
+
+        
+            var html_fc00838d97e5a57073984e12bcb2ee3e = $(`<div id="html_fc00838d97e5a57073984e12bcb2ee3e" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - HIAB - New Business</div>`)[0];
+            popup_7e479701e61ff8146bf5b42efeca7a46.setContent(html_fc00838d97e5a57073984e12bcb2ee3e);
+        
+
+        marker_813f3d2ec365ff646dbe36292830e745.bindPopup(popup_7e479701e61ff8146bf5b42efeca7a46)
+        ;
+
+        
+    
+    
+            var marker_f6e154cbb6772aa27473e939d3fd7bbb = L.marker(
+                [42.5294773, -83.7802214],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_7e09f7e8c0943716bcac6e2f4f401c08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6e154cbb6772aa27473e939d3fd7bbb.setIcon(icon_7e09f7e8c0943716bcac6e2f4f401c08);
+        
+    
+        var popup_35a4f8020a1960f8a4890a12929381c6 = L.popup({"maxWidth": 300});
+
+        
+            var html_d05ee62daabd3396d3995da00d3a0480 = $(`<div id="html_d05ee62daabd3396d3995da00d3a0480" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Optishot Golf - New Business</div>`)[0];
+            popup_35a4f8020a1960f8a4890a12929381c6.setContent(html_d05ee62daabd3396d3995da00d3a0480);
+        
+
+        marker_f6e154cbb6772aa27473e939d3fd7bbb.bindPopup(popup_35a4f8020a1960f8a4890a12929381c6)
+        ;
+
+        
+    
+    
+            var marker_533617d462fcbf086749c68c4c3999b3 = L.marker(
+                [44.9537029, -93.0899578],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_c72455c4ca3ac7507a7401da0d12fd6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_533617d462fcbf086749c68c4c3999b3.setIcon(icon_c72455c4ca3ac7507a7401da0d12fd6a);
+        
+    
+        var popup_a391fd9482b3b82251668fbc021804dd = L.popup({"maxWidth": 300});
+
+        
+            var html_b672d917f0e9201b988f28e0aaa929cf = $(`<div id="html_b672d917f0e9201b988f28e0aaa929cf" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Alarm.com - New Business</div>`)[0];
+            popup_a391fd9482b3b82251668fbc021804dd.setContent(html_b672d917f0e9201b988f28e0aaa929cf);
+        
+
+        marker_533617d462fcbf086749c68c4c3999b3.bindPopup(popup_a391fd9482b3b82251668fbc021804dd)
+        ;
+
+        
+    
+    
+            var marker_925441d59e266ea73aebfc1658f93cf7 = L.marker(
+                [43.7508284, -87.71453],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_5a9dfd0d0beee90264405502b7367e3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_925441d59e266ea73aebfc1658f93cf7.setIcon(icon_5a9dfd0d0beee90264405502b7367e3d);
+        
+    
+        var popup_9b14ddec8b0a9e26407f359ce4291a29 = L.popup({"maxWidth": 300});
+
+        
+            var html_223cc79225e42f0e3f863aabcabff51e = $(`<div id="html_223cc79225e42f0e3f863aabcabff51e" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Bemis - New Business</div>`)[0];
+            popup_9b14ddec8b0a9e26407f359ce4291a29.setContent(html_223cc79225e42f0e3f863aabcabff51e);
+        
+
+        marker_925441d59e266ea73aebfc1658f93cf7.bindPopup(popup_9b14ddec8b0a9e26407f359ce4291a29)
+        ;
+
+        
+    
+    
+            var marker_815e8f7574b083fd8e15b62de12fdb03 = L.marker(
+                [60.12816100000001, 18.643501],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_709f2f23acd3064cbfa770cf48cacfa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_815e8f7574b083fd8e15b62de12fdb03.setIcon(icon_709f2f23acd3064cbfa770cf48cacfa6);
+        
+    
+        var popup_870a8a2fa5989d209ba4bf4ba6e4a036 = L.popup({"maxWidth": 300});
+
+        
+            var html_45e9f9bc7298bd6d9b4b7dbcc3566daf = $(`<div id="html_45e9f9bc7298bd6d9b4b7dbcc3566daf" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Globe Technologies - New Business</div>`)[0];
+            popup_870a8a2fa5989d209ba4bf4ba6e4a036.setContent(html_45e9f9bc7298bd6d9b4b7dbcc3566daf);
+        
+
+        marker_815e8f7574b083fd8e15b62de12fdb03.bindPopup(popup_870a8a2fa5989d209ba4bf4ba6e4a036)
+        ;
+
+        
+    
+    
+            var marker_738a0b35545786c5f27f25052783238d = L.marker(
+                [60.12816100000001, 18.643501],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_a5eb935a9ab69e48791b00cc07da5f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_738a0b35545786c5f27f25052783238d.setIcon(icon_a5eb935a9ab69e48791b00cc07da5f57);
+        
+    
+        var popup_9bf1117b9630c17e3a41f633cefd9935 = L.popup({"maxWidth": 300});
+
+        
+            var html_da51cc2e973361830d647d236ac05203 = $(`<div id="html_da51cc2e973361830d647d236ac05203" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Nordlo - New Business</div>`)[0];
+            popup_9bf1117b9630c17e3a41f633cefd9935.setContent(html_da51cc2e973361830d647d236ac05203);
+        
+
+        marker_738a0b35545786c5f27f25052783238d.bindPopup(popup_9bf1117b9630c17e3a41f633cefd9935)
+        ;
+
+        
+    
+    
+            var marker_47fe80c8fb420429b45cf77afe4b021a = L.marker(
+                [45.9058956, 6.1259117],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_ca383d3d427fa1ffcaaf3bc57050959b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_47fe80c8fb420429b45cf77afe4b021a.setIcon(icon_ca383d3d427fa1ffcaaf3bc57050959b);
+        
+    
+        var popup_e4b4903498ea99dc5b2446d6383ec984 = L.popup({"maxWidth": 300});
+
+        
+            var html_0466fc057815ba16252089ea136a7d8e = $(`<div id="html_0466fc057815ba16252089ea136a7d8e" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Somfy Group - New Business</div>`)[0];
+            popup_e4b4903498ea99dc5b2446d6383ec984.setContent(html_0466fc057815ba16252089ea136a7d8e);
+        
+
+        marker_47fe80c8fb420429b45cf77afe4b021a.bindPopup(popup_e4b4903498ea99dc5b2446d6383ec984)
+        ;
+
+        
+    
+    
+            var marker_fc229d74e009cb140e088b1fdad05f7c = L.marker(
+                [37.693452, -97.3382202],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_15ac9bf019e5ab987ce8250c609fdce3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc229d74e009cb140e088b1fdad05f7c.setIcon(icon_15ac9bf019e5ab987ce8250c609fdce3);
+        
+    
+        var popup_6961132816270b6fea8f5f42611bcbb0 = L.popup({"maxWidth": 300});
+
+        
+            var html_4bc0c54af65d58a18a06ad6cfd98a0e8 = $(`<div id="html_4bc0c54af65d58a18a06ad6cfd98a0e8" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Plains Manufacturing - New Business</div>`)[0];
+            popup_6961132816270b6fea8f5f42611bcbb0.setContent(html_4bc0c54af65d58a18a06ad6cfd98a0e8);
+        
+
+        marker_fc229d74e009cb140e088b1fdad05f7c.bindPopup(popup_6961132816270b6fea8f5f42611bcbb0)
+        ;
+
+        
+    
+    
+            var marker_4667ad89762691bf1d97dc3e3d9932af = L.marker(
+                [61.92410999999999, 25.748151],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_cfd52932d6d41e52e9720e5d739a79eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4667ad89762691bf1d97dc3e3d9932af.setIcon(icon_cfd52932d6d41e52e9720e5d739a79eb);
+        
+    
+        var popup_be5407cd1560edb938ae46e9f69a0ca5 = L.popup({"maxWidth": 300});
+
+        
+            var html_903a10493b2147b28b3c0a9873c9c975 = $(`<div id="html_903a10493b2147b28b3c0a9873c9c975" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Oras - New Business</div>`)[0];
+            popup_be5407cd1560edb938ae46e9f69a0ca5.setContent(html_903a10493b2147b28b3c0a9873c9c975);
+        
+
+        marker_4667ad89762691bf1d97dc3e3d9932af.bindPopup(popup_be5407cd1560edb938ae46e9f69a0ca5)
+        ;
+
+        
+    
+    
+            var marker_fc91e56cd2d95f001d7a7582cd6b873b = L.marker(
+                [34.0659329, -84.6768796],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e94123f76cf0d455c6fd3483699014ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc91e56cd2d95f001d7a7582cd6b873b.setIcon(icon_e94123f76cf0d455c6fd3483699014ee);
+        
+    
+        var popup_753d4a282fe23431c60c0b26fc1dc0b8 = L.popup({"maxWidth": 300});
+
+        
+            var html_62b767516b78ec08adb76f8bbd2a2849 = $(`<div id="html_62b767516b78ec08adb76f8bbd2a2849" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Retail Data Systems - New Business</div>`)[0];
+            popup_753d4a282fe23431c60c0b26fc1dc0b8.setContent(html_62b767516b78ec08adb76f8bbd2a2849);
+        
+
+        marker_fc91e56cd2d95f001d7a7582cd6b873b.bindPopup(popup_753d4a282fe23431c60c0b26fc1dc0b8)
+        ;
+
+        
+    
+    
+            var marker_0ae5dc558bc2f2461afb9a94a89c36ab = L.marker(
+                [51.7520209, -1.2577263],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_07a622f2055cbc52ee09b082b67c8f4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ae5dc558bc2f2461afb9a94a89c36ab.setIcon(icon_07a622f2055cbc52ee09b082b67c8f4c);
+        
+    
+        var popup_a8b72f33d498088a3f9cf1473d294078 = L.popup({"maxWidth": 300});
+
+        
+            var html_ef8e96e556e145fa32919705556404fd = $(`<div id="html_ef8e96e556e145fa32919705556404fd" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Omlet Ltd - New Business</div>`)[0];
+            popup_a8b72f33d498088a3f9cf1473d294078.setContent(html_ef8e96e556e145fa32919705556404fd);
+        
+
+        marker_0ae5dc558bc2f2461afb9a94a89c36ab.bindPopup(popup_a8b72f33d498088a3f9cf1473d294078)
+        ;
+
+        
+    
+    
+            var marker_6be420b00e86785ad45fa116f3f0c1ff = L.marker(
+                [42.3555076, -71.0565364],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_b213f791a640b4f73316023dcb4f4db1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6be420b00e86785ad45fa116f3f0c1ff.setIcon(icon_b213f791a640b4f73316023dcb4f4db1);
+        
+    
+        var popup_1105d3e868fde3df5919916833f4ff84 = L.popup({"maxWidth": 300});
+
+        
+            var html_a35a9bd119cdf114a55e94cefdfc8e64 = $(`<div id="html_a35a9bd119cdf114a55e94cefdfc8e64" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Hydrow - New Business</div>`)[0];
+            popup_1105d3e868fde3df5919916833f4ff84.setContent(html_a35a9bd119cdf114a55e94cefdfc8e64);
+        
+
+        marker_6be420b00e86785ad45fa116f3f0c1ff.bindPopup(popup_1105d3e868fde3df5919916833f4ff84)
+        ;
+
+        
+    
+    
+            var marker_b58d195144ba3b17951c007ebd10f01a = L.marker(
+                [52.52000659999999, 13.404954],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_fed8c66a88bbea9c5df2a03bf8dddeff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b58d195144ba3b17951c007ebd10f01a.setIcon(icon_fed8c66a88bbea9c5df2a03bf8dddeff);
+        
+    
+        var popup_b3aeac6ec37fa6a8c8520cc98981e9f4 = L.popup({"maxWidth": 300});
+
+        
+            var html_227c155adf8f1bdad5f91fd7f2fb9c42 = $(`<div id="html_227c155adf8f1bdad5f91fd7f2fb9c42" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - FLEX-Elektrowerkzeuge GmbH - New Business</div>`)[0];
+            popup_b3aeac6ec37fa6a8c8520cc98981e9f4.setContent(html_227c155adf8f1bdad5f91fd7f2fb9c42);
+        
+
+        marker_b58d195144ba3b17951c007ebd10f01a.bindPopup(popup_b3aeac6ec37fa6a8c8520cc98981e9f4)
+        ;
+
+        
+    
+    
+            var marker_1e3ea09dbeb92233ec4cf6259512182b = L.marker(
+                [51.165691, 10.451526],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_2a13327b3d15a7a8bb64b8b1a082e659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e3ea09dbeb92233ec4cf6259512182b.setIcon(icon_2a13327b3d15a7a8bb64b8b1a082e659);
+        
+    
+        var popup_2a5550fc90437106455719970f8ddc29 = L.popup({"maxWidth": 300});
+
+        
+            var html_c0d5c8a34c337f109f6674fa5c28d286 = $(`<div id="html_c0d5c8a34c337f109f6674fa5c28d286" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Bernstein Badshop - New Business</div>`)[0];
+            popup_2a5550fc90437106455719970f8ddc29.setContent(html_c0d5c8a34c337f109f6674fa5c28d286);
+        
+
+        marker_1e3ea09dbeb92233ec4cf6259512182b.bindPopup(popup_2a5550fc90437106455719970f8ddc29)
+        ;
+
+        
+    
+    
+            var marker_2387bcc702c12edc7c8441edff6e7c0e = L.marker(
+                [48.1351253, 11.5819806],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_e0054d12de53911297be21913e91b132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2387bcc702c12edc7c8441edff6e7c0e.setIcon(icon_e0054d12de53911297be21913e91b132);
+        
+    
+        var popup_e7864cb2e23efad8e526a38ade08a5a7 = L.popup({"maxWidth": 300});
+
+        
+            var html_461456c673ee5b46d6c9f46b3fb1390e = $(`<div id="html_461456c673ee5b46d6c9f46b3fb1390e" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Qwello - New Business</div>`)[0];
+            popup_e7864cb2e23efad8e526a38ade08a5a7.setContent(html_461456c673ee5b46d6c9f46b3fb1390e);
+        
+
+        marker_2387bcc702c12edc7c8441edff6e7c0e.bindPopup(popup_e7864cb2e23efad8e526a38ade08a5a7)
+        ;
+
+        
+    
+    
+            var marker_4fdd93786ed74b2e308d2eca4146e68e = L.marker(
+                [43.0702046, -70.7546771],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_47092e67f88485f2e0569ac7d46111e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fdd93786ed74b2e308d2eca4146e68e.setIcon(icon_47092e67f88485f2e0569ac7d46111e4);
+        
+    
+        var popup_1fafd9c95f950a6b684a4a4c183b06ea = L.popup({"maxWidth": 300});
+
+        
+            var html_bf263024e4b9c72ad02f7ecd6104e4c5 = $(`<div id="html_bf263024e4b9c72ad02f7ecd6104e4c5" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Russound - New Business</div>`)[0];
+            popup_1fafd9c95f950a6b684a4a4c183b06ea.setContent(html_bf263024e4b9c72ad02f7ecd6104e4c5);
+        
+
+        marker_4fdd93786ed74b2e308d2eca4146e68e.bindPopup(popup_1fafd9c95f950a6b684a4a4c183b06ea)
+        ;
+
+        
+    
+    
+            var marker_6bdf2458e49f95d4b29c80a7614de509 = L.marker(
+                [51.253775, -85.3232139],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_ab6554cdebbfe4008f0346fe327bbfcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6bdf2458e49f95d4b29c80a7614de509.setIcon(icon_ab6554cdebbfe4008f0346fe327bbfcd);
+        
+    
+        var popup_deb7b7f265f23387bbc4a73fcc748c4a = L.popup({"maxWidth": 300});
+
+        
+            var html_1807b7cb413429f16c8d3ade1da64dc0 = $(`<div id="html_1807b7cb413429f16c8d3ade1da64dc0" style="width: 100.0%; height: 100.0%;">FY2025 - Q2 - Midland Power - New Business</div>`)[0];
+            popup_deb7b7f265f23387bbc4a73fcc748c4a.setContent(html_1807b7cb413429f16c8d3ade1da64dc0);
+        
+
+        marker_6bdf2458e49f95d4b29c80a7614de509.bindPopup(popup_deb7b7f265f23387bbc4a73fcc748c4a)
+        ;
+
+        
+    
+    
+            var marker_92aa37dc0c08d966ea34c3f09c542a14 = L.marker(
+                [35.3340108, -81.8651028],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_9bbb5d6c4b59e7e0ecfbc75efcec664d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92aa37dc0c08d966ea34c3f09c542a14.setIcon(icon_9bbb5d6c4b59e7e0ecfbc75efcec664d);
+        
+    
+        var popup_08b9e75125e1417ec634dd16227dbec6 = L.popup({"maxWidth": 300});
+
+        
+            var html_2e1c7d2bf5b28aa7462ab2fe4857df50 = $(`<div id="html_2e1c7d2bf5b28aa7462ab2fe4857df50" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Vyve Broadband - New Business</div>`)[0];
+            popup_08b9e75125e1417ec634dd16227dbec6.setContent(html_2e1c7d2bf5b28aa7462ab2fe4857df50);
+        
+
+        marker_92aa37dc0c08d966ea34c3f09c542a14.bindPopup(popup_08b9e75125e1417ec634dd16227dbec6)
+        ;
+
+        
+    
+    
+            var marker_d15f386ff1886168ab700966308e573a = L.marker(
+                [41.081199, -81.51883769999999],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_28190ad251cde904a081a15322557064 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d15f386ff1886168ab700966308e573a.setIcon(icon_28190ad251cde904a081a15322557064);
+        
+    
+        var popup_62e695e6ae0b8d229e58368ae16abb04 = L.popup({"maxWidth": 300});
+
+        
+            var html_60ed4c87ae936ccbe2d8e80b1337c4c7 = $(`<div id="html_60ed4c87ae936ccbe2d8e80b1337c4c7" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - MAAG - New Business</div>`)[0];
+            popup_62e695e6ae0b8d229e58368ae16abb04.setContent(html_60ed4c87ae936ccbe2d8e80b1337c4c7);
+        
+
+        marker_d15f386ff1886168ab700966308e573a.bindPopup(popup_62e695e6ae0b8d229e58368ae16abb04)
+        ;
+
+        
+    
+    
+            var marker_a11d58263bbc63570cfb0de0b4bc16de = L.marker(
+                [61.92410999999999, 25.748151],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_101072c5256b4af136c72b93f50bef9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a11d58263bbc63570cfb0de0b4bc16de.setIcon(icon_101072c5256b4af136c72b93f50bef9f);
+        
+    
+        var popup_603c06c72bd8b6c4b78591c4f55fb086 = L.popup({"maxWidth": 300});
+
+        
+            var html_d35317e9bd71423df062136e8801910e = $(`<div id="html_d35317e9bd71423df062136e8801910e" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Telia Finland - New Business</div>`)[0];
+            popup_603c06c72bd8b6c4b78591c4f55fb086.setContent(html_d35317e9bd71423df062136e8801910e);
+        
+
+        marker_a11d58263bbc63570cfb0de0b4bc16de.bindPopup(popup_603c06c72bd8b6c4b78591c4f55fb086)
+        ;
+
+        
+    
+    
+            var marker_cbaba1b65627b24086dd75ce19c12d29 = L.marker(
+                [51.2230411, 6.7824545],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_82602b6dbbf14615be9c44200e6b6ce6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cbaba1b65627b24086dd75ce19c12d29.setIcon(icon_82602b6dbbf14615be9c44200e6b6ce6);
+        
+    
+        var popup_665c72b395c0a238b0217c3411319091 = L.popup({"maxWidth": 300});
+
+        
+            var html_0bd0b9e6cf6fd5f835f9e5569240b002 = $(`<div id="html_0bd0b9e6cf6fd5f835f9e5569240b002" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Bosch Rexroth - New Business</div>`)[0];
+            popup_665c72b395c0a238b0217c3411319091.setContent(html_0bd0b9e6cf6fd5f835f9e5569240b002);
+        
+
+        marker_cbaba1b65627b24086dd75ce19c12d29.bindPopup(popup_665c72b395c0a238b0217c3411319091)
+        ;
+
+        
+    
+    
+            var marker_6f874d478ddfc9d7cd62d240a148c1f1 = L.marker(
+                [43.0410344, -87.9096783],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_5cb21879762eafd0ee343fa720a34d8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f874d478ddfc9d7cd62d240a148c1f1.setIcon(icon_5cb21879762eafd0ee343fa720a34d8d);
+        
+    
+        var popup_71695a69630772a2c1e200595716b9e6 = L.popup({"maxWidth": 300});
+
+        
+            var html_9d8f1e4a20e53d6c220a3c3d3268ae56 = $(`<div id="html_9d8f1e4a20e53d6c220a3c3d3268ae56" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Generac Power Systems - New Business Consumer Support</div>`)[0];
+            popup_71695a69630772a2c1e200595716b9e6.setContent(html_9d8f1e4a20e53d6c220a3c3d3268ae56);
+        
+
+        marker_6f874d478ddfc9d7cd62d240a148c1f1.bindPopup(popup_71695a69630772a2c1e200595716b9e6)
+        ;
+
+        
+    
+    
+            var marker_b30084ec6e384786c872bcce69d7c3a2 = L.marker(
+                [51.253775, -85.3232139],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_af4ca95864ae494010d4d87e1ea59201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b30084ec6e384786c872bcce69d7c3a2.setIcon(icon_af4ca95864ae494010d4d87e1ea59201);
+        
+    
+        var popup_f0ff9cf3225951a0ee9d157b0856db36 = L.popup({"maxWidth": 300});
+
+        
+            var html_39c3408d2903a6a5dabd4912595dfaf2 = $(`<div id="html_39c3408d2903a6a5dabd4912595dfaf2" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - National Instruments - New Business</div>`)[0];
+            popup_f0ff9cf3225951a0ee9d157b0856db36.setContent(html_39c3408d2903a6a5dabd4912595dfaf2);
+        
+
+        marker_b30084ec6e384786c872bcce69d7c3a2.bindPopup(popup_f0ff9cf3225951a0ee9d157b0856db36)
+        ;
+
+        
+    
+    
+            var marker_1c786b8297e91b2120cbf0d33ffdeb95 = L.marker(
+                [45.7962443, 11.758273],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_d59226467a9587216e02e0dd1d59e75e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c786b8297e91b2120cbf0d33ffdeb95.setIcon(icon_d59226467a9587216e02e0dd1d59e75e);
+        
+    
+        var popup_bd909a239a0b8b944dfe739f32e066e7 = L.popup({"maxWidth": 300});
+
+        
+            var html_714f952e129da4ff9a2ee8c5cc662013 = $(`<div id="html_714f952e129da4ff9a2ee8c5cc662013" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Stiga - New Business</div>`)[0];
+            popup_bd909a239a0b8b944dfe739f32e066e7.setContent(html_714f952e129da4ff9a2ee8c5cc662013);
+        
+
+        marker_1c786b8297e91b2120cbf0d33ffdeb95.bindPopup(popup_bd909a239a0b8b944dfe739f32e066e7)
+        ;
+
+        
+    
+    
+            var marker_b924dfcc2226a4170c0ecf53d3951574 = L.marker(
+                [39.3722121, -104.8560902],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_0adf578aa7b6fad90a8a0f0aab771ffe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b924dfcc2226a4170c0ecf53d3951574.setIcon(icon_0adf578aa7b6fad90a8a0f0aab771ffe);
+        
+    
+        var popup_6c1c0a8d7ccd846938eb9af8cdd46aff = L.popup({"maxWidth": 300});
+
+        
+            var html_681220a69b4bc95dd45b3c7e4e05bc74 = $(`<div id="html_681220a69b4bc95dd45b3c7e4e05bc74" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - WOW! - New Business</div>`)[0];
+            popup_6c1c0a8d7ccd846938eb9af8cdd46aff.setContent(html_681220a69b4bc95dd45b3c7e4e05bc74);
+        
+
+        marker_b924dfcc2226a4170c0ecf53d3951574.bindPopup(popup_6c1c0a8d7ccd846938eb9af8cdd46aff)
+        ;
+
+        
+    
+    
+            var marker_27fdfad7a3c625ef29867f73a579a093 = L.marker(
+                [44.4654257, -73.17718719999999],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_5da66d095eb2d38607effd7b0cccdfa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27fdfad7a3c625ef29867f73a579a093.setIcon(icon_5da66d095eb2d38607effd7b0cccdfa0);
+        
+    
+        var popup_0e903e86f974bd68a335ec6179eabe8b = L.popup({"maxWidth": 300});
+
+        
+            var html_e381cc0b3f6507a737bc388e2346c166 = $(`<div id="html_e381cc0b3f6507a737bc388e2346c166" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - DR® Power Equipment - New Business</div>`)[0];
+            popup_0e903e86f974bd68a335ec6179eabe8b.setContent(html_e381cc0b3f6507a737bc388e2346c166);
+        
+
+        marker_27fdfad7a3c625ef29867f73a579a093.bindPopup(popup_0e903e86f974bd68a335ec6179eabe8b)
+        ;
+
+        
+    
+    
+            var marker_3dd2b6afda35d90f14d2d51756985570 = L.marker(
+                [39.7392358, -104.990251],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_8056dabeb5060810025bbefb42514e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3dd2b6afda35d90f14d2d51756985570.setIcon(icon_8056dabeb5060810025bbefb42514e45);
+        
+    
+        var popup_6760749d1e6be51dead8b772ce784316 = L.popup({"maxWidth": 300});
+
+        
+            var html_704e0eee8396a320361dc94786a623d9 = $(`<div id="html_704e0eee8396a320361dc94786a623d9" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - DISH - New Business</div>`)[0];
+            popup_6760749d1e6be51dead8b772ce784316.setContent(html_704e0eee8396a320361dc94786a623d9);
+        
+
+        marker_3dd2b6afda35d90f14d2d51756985570.bindPopup(popup_6760749d1e6be51dead8b772ce784316)
+        ;
+
+        
+    
+    
+            var marker_ebe2a6662d11920ad4d2fb6b7009f3c4 = L.marker(
+                [48.905536, 9.1317085],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_c4bc1b23536e5708c75322be64319520 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ebe2a6662d11920ad4d2fb6b7009f3c4.setIcon(icon_c4bc1b23536e5708c75322be64319520);
+        
+    
+        var popup_dd9e78e7c0960bc46e7c4a07d1c81781 = L.popup({"maxWidth": 300});
+
+        
+            var html_25e0bf47b1d41f55fb2df2d4b170acb4 = $(`<div id="html_25e0bf47b1d41f55fb2df2d4b170acb4" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Bosch Automotive - New Business</div>`)[0];
+            popup_dd9e78e7c0960bc46e7c4a07d1c81781.setContent(html_25e0bf47b1d41f55fb2df2d4b170acb4);
+        
+
+        marker_ebe2a6662d11920ad4d2fb6b7009f3c4.bindPopup(popup_dd9e78e7c0960bc46e7c4a07d1c81781)
+        ;
+
+        
+    
+    
+            var marker_cb6e7f1dcffb325f893a8feb890ee8cc = L.marker(
+                [60.12816100000001, 18.643501],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_0509658e9a80a82e88a2aa3480482977 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb6e7f1dcffb325f893a8feb890ee8cc.setIcon(icon_0509658e9a80a82e88a2aa3480482977);
+        
+    
+        var popup_408b560ba4d3c4877be019de8385f20e = L.popup({"maxWidth": 300});
+
+        
+            var html_497a631d6b0a04ddb604a8a216f0765f = $(`<div id="html_497a631d6b0a04ddb604a8a216f0765f" style="width: 100.0%; height: 100.0%;">FY2025 - Q3 - Qvantum Energi - New Business</div>`)[0];
+            popup_408b560ba4d3c4877be019de8385f20e.setContent(html_497a631d6b0a04ddb604a8a216f0765f);
+        
+
+        marker_cb6e7f1dcffb325f893a8feb890ee8cc.bindPopup(popup_408b560ba4d3c4877be019de8385f20e)
+        ;
+
+        
+    
+    
+            var marker_6c68193ba0ed3e743ab9a3e4b145d8d9 = L.marker(
+                [44.70309659999999, 10.6346153],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_24e4b94801286acb2b6fe6f563eaba57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c68193ba0ed3e743ab9a3e4b145d8d9.setIcon(icon_24e4b94801286acb2b6fe6f563eaba57);
+        
+    
+        var popup_e4d7718de210977e65ca2d542a6a48b9 = L.popup({"maxWidth": 300});
+
+        
+            var html_9d9ff263034cef8783a6e2e21f5e5c1a = $(`<div id="html_9d9ff263034cef8783a6e2e21f5e5c1a" style="width: 100.0%; height: 100.0%;">FY2025 - Q4 - Emak S.P.A. - New Business</div>`)[0];
+            popup_e4d7718de210977e65ca2d542a6a48b9.setContent(html_9d9ff263034cef8783a6e2e21f5e5c1a);
+        
+
+        marker_6c68193ba0ed3e743ab9a3e4b145d8d9.bindPopup(popup_e4d7718de210977e65ca2d542a6a48b9)
+        ;
+
+        
+    
+    
+            var marker_2c533740460a16044f2ea087896ae564 = L.marker(
+                [42.3875968, -71.0994968],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_6ea7adb6f6d6e6c6f69d498e80326375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c533740460a16044f2ea087896ae564.setIcon(icon_6ea7adb6f6d6e6c6f69d498e80326375);
+        
+    
+        var popup_f52f946819e433707e6a13a9d623ef79 = L.popup({"maxWidth": 300});
+
+        
+            var html_6419acc620bae4ed18956b1552090841 = $(`<div id="html_6419acc620bae4ed18956b1552090841" style="width: 100.0%; height: 100.0%;">FY2025 - Q4 - Keurig - New Business</div>`)[0];
+            popup_f52f946819e433707e6a13a9d623ef79.setContent(html_6419acc620bae4ed18956b1552090841);
+        
+
+        marker_2c533740460a16044f2ea087896ae564.bindPopup(popup_f52f946819e433707e6a13a9d623ef79)
+        ;
+
+        
+    
+    
+            var marker_7d454eef5feb1a3bae846cfe1db722e5 = L.marker(
+                [51.2230411, 6.7824545],
+                {}
+            ).addTo(marker_cluster_51102ae28e283260cb3debf45caf2a57);
+        
+    
+            var icon_73bc6c4140db5f7eb43dd467d8acca3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d454eef5feb1a3bae846cfe1db722e5.setIcon(icon_73bc6c4140db5f7eb43dd467d8acca3a);
+        
+    
+        var popup_86ecbf19d2deec738209ee95c2dba017 = L.popup({"maxWidth": 300});
+
+        
+            var html_240bc92b5cec403b7e49428aa40c13c8 = $(`<div id="html_240bc92b5cec403b7e49428aa40c13c8" style="width: 100.0%; height: 100.0%;">FY2025 - Q4 - Grohe - New Business SURU</div>`)[0];
+            popup_86ecbf19d2deec738209ee95c2dba017.setContent(html_240bc92b5cec403b7e49428aa40c13c8);
+        
+
+        marker_7d454eef5feb1a3bae846cfe1db722e5.bindPopup(popup_86ecbf19d2deec738209ee95c2dba017)
+        ;
+
+        
+    
+    
+            var circle_ab824723cb5fbbec95ff39f285ff3c50 = L.circle(
+                [40.712775, -74.005973],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_e6fdc98f3c3a70ca6d103a191f6b1376 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61d2624ccddd186b5447d2d888442571 = $(`<div id="html_61d2624ccddd186b5447d2d888442571" style="width: 100.0%; height: 100.0%;">New York, New York, United States: 419 contacts (25mi radius)</div>`)[0];
+            popup_e6fdc98f3c3a70ca6d103a191f6b1376.setContent(html_61d2624ccddd186b5447d2d888442571);
+        
+
+        circle_ab824723cb5fbbec95ff39f285ff3c50.bindPopup(popup_e6fdc98f3c3a70ca6d103a191f6b1376)
+        ;
+
+        
+    
+    
+            var circle_c4b9da82e4c3dee1153ce390ec15f96d = L.circle(
+                [41.748348, -87.973794],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_696a13ef02043febb571c6ce04e2a7af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d6f263d07ea7538d90bce81196840c6 = $(`<div id="html_9d6f263d07ea7538d90bce81196840c6" style="width: 100.0%; height: 100.0%;">Darien, Illinois, United States: 451 contacts (25mi radius)</div>`)[0];
+            popup_696a13ef02043febb571c6ce04e2a7af.setContent(html_9d6f263d07ea7538d90bce81196840c6);
+        
+
+        circle_c4b9da82e4c3dee1153ce390ec15f96d.bindPopup(popup_696a13ef02043febb571c6ce04e2a7af)
+        ;
+
+        
+    
+    
+            var circle_56e05306c92791255c83bb933872df63 = L.circle(
+                [37.804351, -122.271164],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_1de467241caf2f6e40050b85951f765b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d462198df015a6d9391c745b2c58fe2 = $(`<div id="html_0d462198df015a6d9391c745b2c58fe2" style="width: 100.0%; height: 100.0%;">Oakland, California, United States: 394 contacts (25mi radius)</div>`)[0];
+            popup_1de467241caf2f6e40050b85951f765b.setContent(html_0d462198df015a6d9391c745b2c58fe2);
+        
+
+        circle_56e05306c92791255c83bb933872df63.bindPopup(popup_1de467241caf2f6e40050b85951f765b)
+        ;
+
+        
+    
+    
+            var circle_22e7504e9b00e0bdd0c68db4dc55ddbd = L.circle(
+                [33.750127, -84.388521],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_b7353600f042570879e6a6f6272cfbc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de934ad8f9c88955e512a07b0eb44b34 = $(`<div id="html_de934ad8f9c88955e512a07b0eb44b34" style="width: 100.0%; height: 100.0%;">Atlanta, Georgia, United States: 261 contacts (25mi radius)</div>`)[0];
+            popup_b7353600f042570879e6a6f6272cfbc2.setContent(html_de934ad8f9c88955e512a07b0eb44b34);
+        
+
+        circle_22e7504e9b00e0bdd0c68db4dc55ddbd.bindPopup(popup_b7353600f042570879e6a6f6272cfbc2)
+        ;
+
+        
+    
+    
+            var circle_7aa1b799b09144be8aedde8db12dc705 = L.circle(
+                [43.041034, -87.909678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_97a6dc6231de10e40a6ee1051b0a39d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ab0521f96bf0853137c2bd12c53d443 = $(`<div id="html_6ab0521f96bf0853137c2bd12c53d443" style="width: 100.0%; height: 100.0%;">Milwaukee, Wisconsin, United States: 217 contacts (25mi radius)</div>`)[0];
+            popup_97a6dc6231de10e40a6ee1051b0a39d3.setContent(html_6ab0521f96bf0853137c2bd12c53d443);
+        
+
+        circle_7aa1b799b09144be8aedde8db12dc705.bindPopup(popup_97a6dc6231de10e40a6ee1051b0a39d3)
+        ;
+
+        
+    
+    
+            var circle_8a7e738879230c3ebc5d5b2d9be89b2d = L.circle(
+                [52.3676, 4.9041],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_060b6049aa60b63740f8286cbd20b742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e06fa916fbc31749a1e47731d5cd27f = $(`<div id="html_0e06fa916fbc31749a1e47731d5cd27f" style="width: 100.0%; height: 100.0%;">Amsterdam, Noord-Holland, Netherlands: 137 contacts (25mi radius)</div>`)[0];
+            popup_060b6049aa60b63740f8286cbd20b742.setContent(html_0e06fa916fbc31749a1e47731d5cd27f);
+        
+
+        circle_8a7e738879230c3ebc5d5b2d9be89b2d.bindPopup(popup_060b6049aa60b63740f8286cbd20b742)
+        ;
+
+        
+    
+    
+            var circle_6fdc4d6b7f1b9868a54c080735468c0c = L.circle(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_7c026c55c082c2f6e4388c6d3fbe638f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71d5cd490a01041f04c46858d4b6a6a0 = $(`<div id="html_71d5cd490a01041f04c46858d4b6a6a0" style="width: 100.0%; height: 100.0%;">Paris, Île-de-France, France: 68 contacts (25mi radius)</div>`)[0];
+            popup_7c026c55c082c2f6e4388c6d3fbe638f.setContent(html_71d5cd490a01041f04c46858d4b6a6a0);
+        
+
+        circle_6fdc4d6b7f1b9868a54c080735468c0c.bindPopup(popup_7c026c55c082c2f6e4388c6d3fbe638f)
+        ;
+
+        
+    
+    
+            var circle_26ed40e30ff6f922b6b03feab28a563c = L.circle(
+                [51.2, 11.9667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_fac92ac6815b55f0d0dc3f483d9e2797 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66e5ce3a2577bf6a4406145d24bab076 = $(`<div id="html_66e5ce3a2577bf6a4406145d24bab076" style="width: 100.0%; height: 100.0%;">Weißenfels, Thüringen, Germany: 47 contacts (25mi radius)</div>`)[0];
+            popup_fac92ac6815b55f0d0dc3f483d9e2797.setContent(html_66e5ce3a2577bf6a4406145d24bab076);
+        
+
+        circle_26ed40e30ff6f922b6b03feab28a563c.bindPopup(popup_fac92ac6815b55f0d0dc3f483d9e2797)
+        ;
+
+        
+    
+    
+            var circle_92ef3f3c3585a0ae39594af2e125ee9f = L.circle(
+                [49.1124, 9.7398],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_a1538d7a92624079610573c2f4cef4b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0df1590a16a59a09e157d692b7232f03 = $(`<div id="html_0df1590a16a59a09e157d692b7232f03" style="width: 100.0%; height: 100.0%;">Schwäbisch Hall, Baden-Württemberg, Germany: 60 contacts (25mi radius)</div>`)[0];
+            popup_a1538d7a92624079610573c2f4cef4b9.setContent(html_0df1590a16a59a09e157d692b7232f03);
+        
+
+        circle_92ef3f3c3585a0ae39594af2e125ee9f.bindPopup(popup_a1538d7a92624079610573c2f4cef4b9)
+        ;
+
+        
+    
+    
+            var circle_8c66fe4fe5badf0bd9f8f98fc57a9158 = L.circle(
+                [47.3769, 8.5417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40233.6, "stroke": true, "weight": 3}
+            ).addTo(map_00e7d0b54b2757b2bb0c98dbb8346219);
+        
+    
+        var popup_ce497eb5236402aada4fbf3b0ca796c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77ad926ae3354cd0d7a18531ef52843a = $(`<div id="html_77ad926ae3354cd0d7a18531ef52843a" style="width: 100.0%; height: 100.0%;">Zürich, Zürich, Switzerland: 65 contacts (25mi radius)</div>`)[0];
+            popup_ce497eb5236402aada4fbf3b0ca796c2.setContent(html_77ad926ae3354cd0d7a18531ef52843a);
+        
+
+        circle_8c66fe4fe5badf0bd9f8f98fc57a9158.bindPopup(popup_ce497eb5236402aada4fbf3b0ca796c2)
+        ;
+
+        
+    
+</script>
+</html>
